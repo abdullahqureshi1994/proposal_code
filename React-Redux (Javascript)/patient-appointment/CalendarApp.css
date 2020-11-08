@@ -1,0 +1,100 @@
+
+.rbc-header {
+    padding: 12px 6px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.rbc-month-view,
+.rbc-time-view,
+.rbc-agenda-view {
+    padding: 24px;
+}
+.rbc-timeslot-group {
+    height: 140px !important;
+    min-height: 140px !important;
+}
+.rbc-day-slot .rbc-events-container {
+     position: static !important;
+}
+/*.rbc-event{*/
+/*    !*height: 50px !important;*!*/
+/*}*/
+
+.rbc-events-container .rbc-event {
+    margin-top: 37px;
+}
+.rbc-events-container .rbc-event-label{
+    display: none;
+}
+
+.rbc-events-container .rbc-event-content{
+    padding-left: 5px;
+    padding-top: 0px;
+}
+.request-note{
+    padding: 0px 0px 0px 24px;
+}
+
+.mx-r-20{
+    margin-right: 20px;
+}
+
+.MuiStepIcon-root {
+    color: #192d3e !important;
+}
+.MuiStepLabel-label {
+    color: #000000;
+}
+
+.rbc-header.rbc-today {
+    background-color: #61dafb;
+}
+.rbc-allday-cell{
+    display: none;
+}
+
+.approved {
+    background-color:green !important;
+    color:#ffffff;
+}
+.cancel {
+    background-color: goldenrod !important;
+    color:#000000;
+}
+.canceled{
+    background-color:#bbb !important;
+    color:#000000;
+}
+.unapproved {
+    background-color: #bbb !important;
+    color: #000000;
+}
+.pending {
+    background-color: yellow !important;
+    color:#000000;
+}
+.completed {
+    background-color:green !important;
+    color: #ffffff;
+}
+.reschedule {
+    background-color:orange !important;
+    color:#000000;
+}
+.badge{
+    border-radius: 4px;
+    padding: 2px 3px 4px 3px;
+    border-style: solid;
+}
+.rbc-addons-dnd-resize-ew-anchor, .rbc-addons-dnd-resize-ns-anchor, .rbc-event-label {
+    display: none;
+}
+
+.rbc-event{
+    left: 0px !important;
+    width: 100% !important;
+    height: auto !important;
+}
+.rbc-events-container:nth-child(even) {
+    margin-top: 58px;
+}
